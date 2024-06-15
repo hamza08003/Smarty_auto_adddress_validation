@@ -162,7 +162,7 @@ def main():
         validation_status = get_validation_status(driver)
         print(f"Validation Status: {validation_status}")
 
-        us_addresses_input.clear()
+        [us_addresses_input.send_keys(Keys.BACKSPACE) for _ in range(len(combined_address))]
 
         time.sleep(1)
 
