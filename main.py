@@ -121,7 +121,7 @@ def set_input_value(driver, element, value):
 
 
 def main():
-    file_path = 'Sample Adress.xlsx'
+    file_path = 'resources/Sample Adress.xlsx'
     print("Reading Excel File")
     df = read_excel_file(file_path)
 
